@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Image Gallery </h1>
+
+    <div class="gallery-container">
+        <div class="thumb-bar">
+            <img src="图片1.jpg" alt="Thumbnail 1" class="thumb" data-full-image="图片1.jpg">
+            <img src="图片2.jpg" alt="Thumbnail 2" class="thumb" data-full-image="图片2.jpg">
+            <img src="图片3.jpg" alt="Thumbnail 3" class="thumb" data-full-image="图片3.jpg">
+            <img src="图片4.jpg" alt="Thumbnail 4" class="thumb" data-full-image="图片4.jpg">
+            <img src="图片5.jpg" alt="Thumbnail 5" class="thumb" data-full-image="图片5.jpg">
+        </div>
+
+        <div class="full-img">
+            <img class="displayed-img" src="图片1.jpg" alt="Image 1">
+            <div class="overlay"></div>
+            <button class="dark">Darken</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
